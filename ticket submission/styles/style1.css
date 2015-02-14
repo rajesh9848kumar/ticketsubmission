@@ -1,0 +1,203 @@
+p,ul,ol,h1,h2,h3,h4,h5,h6{
+	margin:0px;
+	padding:0px;
+}
+body{
+	margin:0px;
+	padding:0px;
+	background-color:rgb(183, 228, 239);
+}
+header{
+	margin:auto;
+	padding:0px;
+	width:98%;
+	height:150px;
+	background-color:rgb(26, 157, 187);
+}
+#logo{
+	margin:0px;
+	padding:0px;
+	width:50%;
+	height:100px;
+	/*background-color:red;*/
+	/*background-image: url("images/Searson-logo.gif")*/
+	float:left;
+}
+#nav{
+	margin:0px;
+	padding:0px;
+	position:absolute;
+	top:100px;
+	left:30%;
+	width:70%;
+	height:50px;
+	/*background-color:green;*/
+	float:left;
+}
+ul{
+	list-style-type:none;
+	float:right;
+	}
+li{
+	margin:12px 51px;
+	float:left;
+	line-height:30px;
+}
+li a{
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+	font-size:18px;
+}
+li a:hover{
+	color:rgb(26, 157, 187);
+	/*margin: 15px 0px 0px 24px;*/
+	text-decoration:none;
+	padding: 5px 10px;
+	border:none;
+	box-shadow:black 0px 0px 4px;
+	width:70px;
+	height:25px;
+	background-color:rgb(183, 228, 239);
+	font-size:14px;
+	font-weight:bold;
+	margin-top:5px;
+	
+}
+.active{
+	color:rgb(26, 157, 187);
+	/*margin: 15px 0px 0px 24px;*/
+	text-decoration:none;
+	padding: 5px 10px;
+	border:none;
+	box-shadow:black 0px 0px 4px;
+	width:70px;
+	height:25px;
+	background-color:rgb(183, 228, 239);
+	font-size:14px;
+	font-weight:bold;
+	margin-top:5px;
+}
+.logo-title{
+	margin-left:20px;
+	font-size:3.0em;
+	color:white;
+	line-height:134px;
+}
+section{
+	margin:auto;
+	width:98%;
+	padding:10px 0px;
+	height:600px;
+	overflow:auto;
+}
+footer{
+	margin:auto;
+	width:98%;
+	height:50px;
+	background-color:rgb(26, 157, 187);
+}
+#footer-text{
+	color:white;
+	text-align:center;
+	line-height:47px;
+}
+	/************** Welcome page************/
+.content{
+	margin:auto;
+	margin-top:20px;
+	padding:10px 20px;
+	width:90%;
+	position:relative;
+	overflow:hidden;
+	min-height:1px;
+	background-color:white;
+	border:1px solid gray;
+}
+/************** Forms************/
+.wrapper-reg{
+	margin: 71px auto;
+	padding:30px;
+	width:25%;
+	position:relative;
+	overflow:hidden;
+	min-height:1px;
+	box-shadow:black 0px 0px 10px;
+	border-radius:10px;
+	}
+.wrapper-reg1{
+margin: 71px auto;
+padding: 30px;
+width: 50%;
+position: relative;
+overflow: hidden;
+min-height: 1px;
+box-shadow: black 0px 0px 10px;
+border-radius: 10px;
+}
+.reg-form{
+	color:rgb(26, 157, 187);
+	font-weight:bold;
+	font-size:14px;
+	font-family:arial;
+}
+.frm-title{
+	margin:0px 50px;
+	margin-bottom:10px;
+	color:rgb(26, 157, 187);
+	font-weight:bold;
+	font-family:arial;
+}
+.frm-field{
+padding:10px 10px;
+width:93%;
+height:15px;
+border-radius:5px;
+border:none;
+}
+.frm-butt{
+	margin-left:55px;
+	border:none;
+	box-shadow:black 0px 0px 4px;
+	width:70px;
+	height:25px;
+	background-color:rgb(26, 157, 187);
+	font-size:14px;
+	font-weight:bold;
+	margin-top:5px;
+}
+.a-butt{
+	color:black;
+	margin: 15px 0px 0px 24px;
+	text-decoration:none;
+	padding: 5px 10px;
+	border:none;
+	box-shadow:black 0px 0px 4px;
+	width:70px;
+	height:25px;
+	background-color:rgb(26, 157, 187);
+	font-size:14px;
+	font-weight:bold;
+	margin-top:5px;
+}
+
+/******** placeholder styles**********/
+::-webkit-input-placeholder {
+   color: rgb(26, 157, 187);
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: rgb(26, 157, 187);  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: rgb(26, 157, 187);  
+}
+
+:-ms-input-placeholder {  
+   color: rgb(26, 157, 187);  
+}
+/**************** text effects ***************/
+label{
+	font-weight:bold;
+}
